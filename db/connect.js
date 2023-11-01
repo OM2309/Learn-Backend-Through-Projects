@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 
-const connectDB = async () => {
+const connectDB = async (url) => {
   try {
-    await mongoose.connect("mongodb://127.0.0.1:27017/api");
+    await mongoose.connect(url);
     console.log("DB Connected");
   } catch (err) {
     console.error(err);

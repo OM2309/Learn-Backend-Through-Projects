@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Sample Product",
+        "price": 19.99,
+        "featured": false,
+        "rating": 4.5,
+        "company": "Amazon"
+    },
+    {
+        "name": "Another Product",
+        "price": -10.5,
+        "featured": true,
+        "rating": 3.8,
+        "company": "Google"
+    },
+    {
+        "name": "Third Product",
+        "price": 15.0,
+        "featured": true,
+        "rating": 4.9,
+        "company": "Microsoft"
+    },
+    {
+        "name": "Product",
+        "price": 19.99,
+        "featured": true,
+        "rating": 4.5,
+        "company": "Amazon"
+    }
+]
